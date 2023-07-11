@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: #000000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+    padding: 15px 30px;
+    align-items: center;
+}
+.heading{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading h8{
+    font-size: small;
+}
+/* .user{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+} */
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+.user:active{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+.user button{
+  background: transparent;
+  border: 2px solid gray;
+  color: white;
+  padding: 9px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+
+.row {
+    display: flex;
+    height: 60px;
+    padding: 10px 50px 0px 30px;
+}
+
+.box {
+    background-color: black;
+}
+
+.box2 {
+    margin-left: 100px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+.avatar:hover {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  transition: 0.5s ease-in-out;
+}
+.column3 {
+    float: left !important;
+    width: 33% !important;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    font-size: 50px;
+}
+
+.profile {
+    border: #000000;
+    box-shadow: 0 4px 8px 0 rgba(113, 88, 88, 0.822);
+    max-width: 330px;
+    margin: 20px 5px;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    background-color: gray;
+    height: 280px;
+}
+
+.profile:hover {
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 0 4px purple,
+                0 0 0 20px purple;
+    background-color: purple;
+    
+    
+}
+
+.email {
+    color: rgb(39, 33, 33);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#main {
+    padding: 7px 50px;
+    margin: 0 auto;
+    display: none;
+}
+
+.loader {
+    position: relative;
+    left: 26%;
+    height: 85vh;
+}
+#welcome{
+  width: 100%;
+  background-color: aqua;
+  height: 90.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
