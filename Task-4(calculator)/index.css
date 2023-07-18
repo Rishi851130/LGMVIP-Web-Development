@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(45deg, #0a0a0a, rgba(4, 154, 204, 0.667));
+}
+.head{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(246, 243, 247, 0.5);
+}
+.btnhead button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgba(40, 18, 18, 0.83);
+    color: white;
+    cursor: pointer;
+}
+
+.display{
+    width: 320px;
+    border: none;
+    background: rgba(17, 159, 17, 0.74);
+    /* box-shadow: inset -5px -5px 12px rgba(60, 52, 63, 0.5), inset 5px 5px 12px rgba(60, 52, 63, 0.5); */
+    text-align: right;
+    font-size: 40px;
+    color: white;
+    padding-right: 5px;
+}
+.display2{
+    width: 320px;
+    /* margin: 10px 0; */
+    border: none;
+    background: rgba(17, 159, 17, 0.74);
+    /* box-shadow: inset -5px -5px 12px rgba(60, 52, 63, 0.5), inset 5px 5px 12px rgba(60, 52, 63, 0.5); */
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    padding-right: 5px;
+}
+.display::placeholder{
+    color: white;
+}
+.btnhead .red{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border-radius: 5px;
+}
+.btnhead .yellow{
+    background-color: rgb(255, 136, 0);
+    color: black;
+    border-radius: 5px;
+}
+.btnhead .result{
+    width: 135px;
+    border-radius: 5px;
+    background-color: rgb(8, 215, 119);
+    font-size: 30px;
+}
+.btnhead .operator{
+    color: rgb(8, 215, 119);
+    font-size: 20px;
+}
+.btnhead .operator:hover{
+    background-color: rgb(186, 244, 11);
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.btnhead button:active {
+    box-shadow: inset 5px 5px 10px rgba(40, 18, 18, 0.83), inset -5px -5px 10px rgba(40, 18, 18, 0.83);
+}
